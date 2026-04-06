@@ -6,7 +6,6 @@ build-backend = "hatchling.build"
 name = "snap-parser"
 dynamic = ["version"]
 description = "Parse Snap!'s project file format."
-readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 keywords = []
@@ -17,9 +16,9 @@ classifiers = []
 dependencies = ["xmltodict"]
 
 [project.urls]
-Documentation = "https://github.com/PPPDUD/snap-parser#readme"
-Issues = "https://github.com/PPPDUD/snap-parser/issues"
-Source = "https://github.com/PPPDUD/snap-parser"
+Documentation = "https://github.com/Mojavesoft-Group/snap-parser#readme"
+Issues = "https://github.com/Mojavesoft-Group/snap-parser/issues"
+Source = "https://github.com/Mojavesoft-Group/snap-parser"
 
 [tool.hatch.version]
 path = "src/snap_parser/__about__.py"
