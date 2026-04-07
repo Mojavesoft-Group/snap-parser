@@ -95,7 +95,6 @@ class Costume:
     """A Snap! costume."""
     def __init__(self, data):
         self.data = data
-        print(data)
         self.name = self.data["costume"]["@name"]
         self.center_x = self.data["costume"]["@center-x"]
         self.center_y = self.data["costume"]["@center-y"]
